@@ -49,10 +49,9 @@ Use the power specttra plots, frequency and time plots to illustrate the key ste
 Methodology:
 
 You will need to design an appropriate digital low-pass filter. The ideal digital anti-aliasing filter is a digital sinc function of the
-appropriate bandwidth as discussed in the previous labs. In the exercise below you may approximate this with an appropriately
-truncated sinc function or you may use MATLAB’s filter design function called FIR1. The output of FIR1 is the filter’s impulse
-response function which can then be convolved with the input signal. Care must be taken in selecting a suitable filter length and the
-correct cut-off frequency.
+appropriate bandwidth. In the exercise we approximate this with an appropriately truncated sinc function or you may use MATLAB’s filter 
+design function called FIR1. The output of FIR1 is the filter’s impulseresponse function which can then be convolved with the input signal. 
+Care must be taken in selecting a suitable filter length and the correct cut-off frequency.
 NOTE: The frequency response function for a filter can be plotted using MATLAB’s freqz function.
 
 License:
